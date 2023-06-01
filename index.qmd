@@ -1,0 +1,148 @@
+---
+format:
+  revealjs:
+    incremental: false
+    css: styles.css
+execute: 
+  echo: true
+footer: <a href="https://joelnitta.github.io/oslo-targets">https://joelnitta.github.io/oslo-targets</a>
+---
+
+## How to use {targets} for effective workflows in R
+
+### Joel Nitta
+
+Carpentry@UiO
+
+2023/06/08
+
+<br><br><img src="https://docs.ropensci.org/targets/logo.svg" alt="drawing" height="350" style="float:right;margin:-200px 0px">
+
+<https://www.joelnitta.com>
+
+## Self-introduction
+
+:::: {.columns}
+
+::: {.column width="45%"}
+@joel_nitta
+
+<https://joelnitta.com>
+
+- Associate Professor @ [Chiba University](https://www.chiba-u.ac.jp/e/index.html)
+
+- Research interests: Ecology and evolution of __ferns__
+
+- Hobbies: Running (after my 7YO!)
+
+::: {.medsmall}
+Photo: J-Y Meyer
+:::
+
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+<img src="https://github.com/joelnitta/joelnitta-site/blob/master/static/media/headers/research_img2.jpg?raw=true" alt="drawing" height="100%"/>
+
+:::
+
+::::
+
+## Outline of today's workshop
+
+- Introduction to {targets}
+
+- Live coding
+
+- Lunch break
+
+- More live coding
+
+- Bring Your Own Data (BYOD)
+
+To follow along with live coding, install [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/), and [targets](https://github.com/ropensci/targets)
+
+## Why {targets}?
+
+. . .
+
+### To make your code more reproducible
+
+## What is reproducibility?
+
+. . .
+
+> The ability for others (or your future self) to re-run your code and get the same results
+
+. . .
+
+- Not "yes" or "no"
+- Reproducibility = **mindset**
+- Many aspects
+  - Computing environment
+  - Data availability
+  - **Code automation**
+
+## Workflows in R
+
+![](images/workflow_1.png){fig-alt="Hadley Wickham's data analysis workflow chart" width="100%" height="100%"}
+
+- **Which steps** need to be run **in what order**?
+
+::: {.aside}
+R for Data Science https://r4ds.had.co.nz/
+:::
+
+## Workflows in R
+
+![](images/workflow_2.png){fig-alt="Hadley Wickham's data analysis workflow chart with icon showing part of it changed" width="100%" height="100%"}
+
+- If **one part** of a workflow changes, **how does it affect other parts?**
+
+- **How much of it do we need to re-run?**
+
+## What is {targets}?
+
+:::: {.columns}
+
+::: {.column width="45%"}
+- Automates workflow
+
+- Only runs necessary steps
+
+- Can run workflow steps in parallel (speeds up analysis)
+
+- Provides proof that **results** are derived **from code**
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="45%"}
+
+![](https://docs.ropensci.org/targets/logo.svg){fig-alt="targets logo" height="350"}
+
+:::
+
+::::
+
+## Resources
+
+- Github <https://github.com/ropensci/targets>
+
+- Package website <https://docs.ropensci.org/targets/>
+
+- User manual <https://books.ropensci.org/targets/>
+
+- Targetopia <https://wlandau.github.io/targetopia/>
+
+- {tarchetypes} website <https://docs.ropensci.org/tarchetypes/>
+
+- Discussion board <https://github.com/ropensci/targets/discussions>
+
+## Live Coding
+
+All lesson materials at <https://joelnitta.github.io/targets-workshop/>
