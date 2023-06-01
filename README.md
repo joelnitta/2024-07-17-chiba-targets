@@ -4,6 +4,8 @@ Slides for workshop ["How to use {targets} for effective workflows in R"](https:
 
 All material by Joel Nitta
 
+Rendered slides at <https://joelnitta.github.io/oslo-targets>
+
 ## License
 
 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
