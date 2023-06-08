@@ -20,12 +20,12 @@ Carpentry@UiO
 
 <https://www.joelnitta.com>
 
-## Self-introduction
+## Introductions: instructor
 
 :::: {.columns}
 
 ::: {.column width="45%"}
-@joel_nitta
+@joelnitta@fosstodon.org
 
 <https://joelnitta.com>
 
@@ -51,6 +51,14 @@ Photo: J-Y Meyer
 
 ::::
 
+## Introductions, cont'd
+
+- Name
+
+- Affiliation
+
+- What do you want to do with {targets} and/or R?
+
 ## Outline of today's workshop
 
 - Introduction to {targets}
@@ -63,7 +71,11 @@ Photo: J-Y Meyer
 
 - Bring Your Own Data (BYOD)
 
-To follow along with live coding, install [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/), and [targets](https://github.com/ropensci/targets)
+## Setup
+
+- Local: Install [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/), and [targets](https://github.com/ropensci/targets)
+
+- Cloud: Sign in to the [Posit Cloud instance](https://posit.cloud/content/6064275) (requires account; free)
 
 ## Collaborative notes
 
@@ -72,6 +84,18 @@ To follow along with live coding, install [R](https://www.r-project.org/), [RStu
 - Please add your name if you are comfortable doing so.
 
 - Workshop staff will take notes, but feel free to add anything you like.
+
+## Code of Conduct
+
+- By participating in this workshop, you agree to abide by the [Carpentries Code of Conduct](https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html)
+
+## About The Carpentries
+
+- [Software Carpentry](https://software-carpentry.org/about/) (since 1998) is an **open** workshop series for researchers to teach each other **best practices for research computing** as a **community**
+
+- [The Carpentries](https://carpentries.org/) includes also [Data Carpentry](https://datacarpentry.org/) and [Library Carpentry](https://librarycarpentry.org/)
+
+- This lesson is **in-development** (not an official workshop, yet)
 
 ## Why {targets}?
 
