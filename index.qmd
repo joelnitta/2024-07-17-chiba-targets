@@ -65,6 +65,14 @@ Photo: J-Y Meyer
 
 To follow along with live coding, install [R](https://www.r-project.org/), [RStudio](https://www.rstudio.com/products/rstudio/download/), and [targets](https://github.com/ropensci/targets)
 
+## Collaborative notes
+
+- <https://hackmd.io/@joelnitta/Hy-J75aL3/edit>
+
+- Please add your name if you are comfortable doing so.
+
+- Workshop staff will take notes, but feel free to add anything you like.
+
 ## Why {targets}?
 
 . . .
