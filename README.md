@@ -6,6 +6,10 @@ All material by Joel Nitta
 
 Rendered slides at <https://joelnitta.github.io/oslo-targets>
 
+## Rendering
+
+Run `quarto publish`
+
 ## License
 
 [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
