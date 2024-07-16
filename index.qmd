@@ -5,7 +5,7 @@ format:
     css: styles.css
 execute: 
   echo: true
-footer: <a href="https://joelnitta.github.io/oslo-targets">https://joelnitta.github.io/oslo-targets</a>
+footer: <a href="https://joelnitta.github.io/2024-07-17-chiba-targets">https://joelnitta.github.io/2024-07-17-chiba-targets</a>
 ---
 
 ## How to use {targets} for effective workflows in R
